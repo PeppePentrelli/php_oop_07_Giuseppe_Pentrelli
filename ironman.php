@@ -7,7 +7,6 @@ require_once 'braccio.php';
 require_once 'gamba.php';
 require_once 'piedi.php';
 
-$ironmanCount = 0; 
 
 class Ironman { 
     
@@ -89,5 +88,6 @@ foreach ($esercitoIronman as $ironman) {
     echo "\n";
 }
 
+echo "Numero di Ironman creati: " . Ironman::$ironmanCount;
 
 ?>
